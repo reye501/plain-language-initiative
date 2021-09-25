@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+ }
+
+ body {
+    font-family: "Poppins", sans-serif;
+ }
+
+ a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: #1b4332;
+}
+
+/* Header */
+ h1, h2, p {
+    margin: 1.6rem 0;
+}
+
+h1 a {
+    font-weight: 800;
+    font-size: 3.6rem;
+}
+
+h2 {
+
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+
+ .row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.logo h1{
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav box-icon {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+nav ul li a:hover {
+    color: #95d5b2;
+    transition: .5s ease-in-out;
+}
+
+/* For Researchers */
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 0 0;
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.research-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    height: 800px;
+}
+.prompt-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    display: block;
+    padding: 0 500px;
+}
+
+label, input {
+    font-size: 3rem;
+    width: 1200px;
+    height: 200px;
+    margin: 0 50px;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 75px;
+    margin: 20px 50px;
+    background: #2d6a4f;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
