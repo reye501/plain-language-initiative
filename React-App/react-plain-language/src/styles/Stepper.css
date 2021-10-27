@@ -1,0 +1,16 @@
+.Researchers-input {
+    min-height: 60vh
+}
+
+.Stepper {
+    margin-bottom: 32px
+}
+
+.Complete-box {
+    display: flex;
+    align-items: center;
+}
+
+.Next-button {
+    margin-right: 5px;
+}
