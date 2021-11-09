@@ -90,6 +90,45 @@ h2{
 
 h3 {
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+
+.research-content-container-intro a {
+    font-size: 2rem;
+}
+
+.research-content-container-intro img {
+    max-width: 70%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.research-content-container-intro ul li {
+    font-size: 2rem;
+}
+
+.research-content-container-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.write-button {
+    margin: 40px 0;
+}
+.write-button a{
+    width: 50%;
+    background-color:#2d6a4f;
+    color: white;
+    padding: 20px 20px;
+    margin: 3rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
 
 .research-content-container {
