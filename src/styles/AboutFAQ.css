@@ -1,0 +1,59 @@
+/* Header */
+h1 {
+    font-weight: 400;
+    font-size: 3.6rem;
+    color: #1b4332;
+}
+
+.header {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1b4332;
+}
+
+.link:hover {
+    color: #95d5b2;
+    transition: .5s ease-in-out;
+}
+
+/* About and FAQ */
+.about-faq-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.about-faq-items h2 {
+    font-size: 5rem;
+}
+
+.about-faq-items h3{
+    font-size: 2.5rem;
+    margin: 30px;
+    text-transform: capitalize;
+}
+
+.about-faq-items p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.about-faq-items ul li{
+    font-size: 2rem;
+}
