@@ -104,10 +104,22 @@ function getNewEditor(step) {
 }
 
 class HorizontalNonLinearStepper extends React.Component {
-  state = {
-    activeStep: 0,
-    completed: {}
-  };
+  constructor(props) {
+    super();
+    this.state = {
+      activeStep: 0,
+      completed: {},
+    };
+  }
+
+  componentDidMount() {
+    this.handleBack();
+    this.handleComplete();
+    this.handleNext();
+    this.handleReset();
+    this.handleStep();
+  }
+  
 
   totalSteps = () => {
     return getSteps().length;
