@@ -26,8 +26,8 @@ const CustomAccordion = withStyles({
         // position: "fixed",
         flexDirection: "column",
         justifyContent: "center",
-        backgroundColor: "#2D6A4F",
-        color: "white",
+        backgroundColor: "#2D6A4F !important",
+        color: "white !important",
         marginTop: 0,
         marginBottom: 0,
         alignItems: "start",
@@ -47,7 +47,7 @@ const CustomAccordionDetails = withStyles({
 export default function ExpandPanel({summary, details}) {
     return (
       <div>
-        <CustomAccordion disableGutters disableSpacing elevation={0}>
+        <CustomAccordion disableGutters elevation={0}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"

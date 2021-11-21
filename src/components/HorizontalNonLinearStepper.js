@@ -20,15 +20,15 @@ const styles = theme => ({
     width: "90%"
   },
   button: {
-    marginRight: theme.spacing.unit,
+    marginRight: theme.spacing(),
     color: "#2D6A4F !important"
   },
   completed: {
     display: "inline-block"
   },
   instructions: {
-    marginTop: theme.spacing.unit,
-    marginBottom: theme.spacing.unit
+    marginTop: theme.spacing(),
+    marginBottom: theme.spacing()
   },
   stepIconRoot: {
     color: "grey !important",

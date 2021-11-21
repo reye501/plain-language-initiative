@@ -1,14 +1,15 @@
 import HorizontalNonLinearStepper from '../components/HorizontalNonLinearStepper';
 import Typography from '@mui/material/Typography';
 import '../styles/ForResearchers.css';
+import CustomizedTypo from '../components/CustomizedTypo';
 
 export default function ForResearchers()
 {
     return(
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100vw', height: '100vh'}}>
-            <Typography className="Title-name" variant="h2" style={{marginBottom: "10vh"}}>
+            <CustomizedTypo className="Title-name" style={{marginBottom: "5vh"}}>
                 For Researchers: How to Write in Plain Language
-            </Typography>
+            </CustomizedTypo>
             <HorizontalNonLinearStepper/>
         </div>     
     );
