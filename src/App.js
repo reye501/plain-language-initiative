@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import ForResearchers from './pages/ForResearchers';
 import Home from './pages/Home';
+import AboutFAQ from './pages/AboutFAQ';
 
 function App() {
   return (
@@ -21,22 +22,23 @@ function App() {
                 <a href="/">Home</a>
                 <a href="/intro">Intro</a>
                 <a href="/researchers">Researchers</a>
+                <a href="/aboutfaq">About FAQ</a>
           </div>
         </div>
         <div style={{height: '5vh'}}/>
         <div>
           <Router>
               <Switch>
-                <Route path="/researchers">
-                  <ForResearchers/>
-                </Route>
-
                 <Route path="/intro">
                   <Home/>
                 </Route>
 
                 <Route path="/researchers">
                   <ForResearchers/>
+                </Route>
+
+                <Route path="/aboutfaq">
+                  <AboutFAQ/>
                 </Route>
               </Switch>
 
