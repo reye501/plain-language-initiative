@@ -34,7 +34,7 @@ h3 {
 }
 
 .research-content-container-intro {
-    margin: 10vh 5vw;
+    margin: 0 5vw;
     display: flex;
     justify-content: center;
     align-items: center;

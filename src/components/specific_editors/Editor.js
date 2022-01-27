@@ -43,10 +43,10 @@ export default class ControlledEditor extends Component {
             editorClassName="demo-editor"
             onEditorStateChange={this.onEditorStateChange}
             />
-            {/* <textarea
+            <textarea
             disabled
-            value={JSON.stringify(editorState, null, 4)}
-            /> */}
+            value={JSON.stringify(editorState.getCurrentContent(), null, 4)}
+            />
         </div>
         );
     }

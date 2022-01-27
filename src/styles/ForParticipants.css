@@ -1,0 +1,34 @@
+.participant-main {
+    width: 100vw;
+}
+
+.participant-main-title {
+    margin-bottom: 5vh !important;
+}
+
+.participant-main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.participant-main-content-pdf {
+    width: 45vw;
+}
+
+.participant-main-content-feedback {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.participant-tips {
+    /* width: 90%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-submit {
+    margin: 3vh 0 !important;
+}

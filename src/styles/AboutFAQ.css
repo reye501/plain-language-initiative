@@ -18,6 +18,9 @@ h1 {
 }
 
 /* About and FAQ */
+.about-faq-title {
+    margin-bottom: 5vh !important;
+}
 .about-faq-items {
     display: flex;
     flex-direction: column;

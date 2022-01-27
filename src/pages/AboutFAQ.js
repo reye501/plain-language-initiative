@@ -1,11 +1,4 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import ForResearchers from './ForResearchers';
 import '../styles/AboutFAQ.css';
 import CustomizedTypo from '../components/CustomizedTypo';
 import CustomizedTypoSmall from '../components/CustomizedTypoSmall';
@@ -15,7 +8,7 @@ export default function Home() {
     return(
         <div className="about-faq">
             <div className="about-faq-items">
-                <CustomizedTypo variant="h6">About and FAQ</CustomizedTypo>
+                <CustomizedTypo className="about-faq-title" variant="h6">About and FAQ</CustomizedTypo>
 
                 <div className="faq-item">
                     <CustomizedTypoMedium variant="h3">Why I created this site</CustomizedTypoMedium>

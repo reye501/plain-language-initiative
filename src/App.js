@@ -1,5 +1,3 @@
-import { ThemeProvider} from '@material-ui/core';
-import custom_theme from './utility/Theme';
 import './App.css';
 import CustomizedTypo from './components/CustomizedTypo';
 import React from "react";
@@ -12,6 +10,7 @@ import {
 import ForResearchers from './pages/ForResearchers';
 import Home from './pages/Home';
 import AboutFAQ from './pages/AboutFAQ';
+import ForParticipants from './pages/ForParticipants';
 
 function App() {
   return (
@@ -22,6 +21,7 @@ function App() {
                 <a href="/">Home</a>
                 <a href="/intro">Intro</a>
                 <a href="/researchers">Researchers</a>
+                <a href="/participants">Participants</a>
                 <a href="/aboutfaq">About FAQ</a>
           </div>
         </div>
@@ -31,6 +31,10 @@ function App() {
               <Switch>
                 <Route path="/intro">
                   <Home/>
+                </Route>
+
+                <Route path="/participants"> 
+                  <ForParticipants/>
                 </Route>
 
                 <Route path="/researchers">
