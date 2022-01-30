@@ -23,8 +23,6 @@ export default function FeedbackRate({question}) {
         console.log(checked);
     }
 
-    
-
     return(
         <div>
             <CustomizedTypoSmall> {question} </CustomizedTypoSmall>
